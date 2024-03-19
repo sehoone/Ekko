@@ -3,7 +3,7 @@ COPY ekko-server /home/gradle/src
 WORKDIR /home/gradle/src
 RUN gradle build --no-daemon --stacktrace
 
-FROM openjdk:11.0.10-slim
+FROM openjdk:11.0.12-slim
 
 #EXPOSE 8080
 
